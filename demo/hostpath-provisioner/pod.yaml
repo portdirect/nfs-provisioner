@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: hostpath-provisioner
-      image: hostpath-provisioner:latest
+      image: alectroemel/hostpath-provisioner:latest
       imagePullPolicy: "IfNotPresent"
       volumeMounts:
         - name: pv-volume
